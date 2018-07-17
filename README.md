@@ -30,8 +30,8 @@ The script steps are the following.
 
 ##12. Cast activities to a factor variable #Review Point 3.
 
-##11. Select only std and mean variables. #Review point 2.
+##13. Select only std and mean variables. #Review point 2.
 
-##12. Create new dataset with avg per subject per activity
+##14. Create new dataset with avg per subject per activity
 
-##13. write the final dataset text file.
+##15. write the final dataset text file.
