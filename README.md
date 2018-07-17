@@ -4,9 +4,11 @@ The run_analysis.R script runs smoothly if the Samsung dataset is decompressed i
 
 The script has full comments that explain each step of the process, these comments will be duplicated here for simplicity.
 
+The script steps are the following.
+
 ##1. Read the column names, and tidy them up. ##Review Point 4.
 
-#2. Read activity names.
+##2. Read activity names.
 
 ##3. Read Test dataset.
 
