@@ -7,11 +7,11 @@ getwd()
 ##1. Read the column names, and tidy them up. ##Review Point 4.
 read.delim("UCI\ HAR\ Dataset/features.txt", header = FALSE, 
            stringsAsFactors = FALSE, sep = " ")->x_column_names
-rm(x_column_names)
 tidy_names <- tolower(x_column_names[,2])
 tidy_names <- make.names(tidy_names)
 tidy_names <- gsub("\\.\\.","\\.", tidy_names)
 tidy_names <- gsub("\\.\\.","\\.", tidy_names) 
+rm(x_column_names)
 
 #2. Read activity names.
 activity_names <- read.delim("UCI\ HAR\ Dataset/activity_labels.txt", header = FALSE, 
